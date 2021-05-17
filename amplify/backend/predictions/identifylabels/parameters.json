@@ -1,0 +1,15 @@
+{
+    "resourceName": "identifylabels",
+    "identifyPolicyName": "identifyPolicy558a0515",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "adminAuthProtected": "DISALLOW",
+    "adminGuestProtected": "DISALLOW",
+    "identifyType": "identifyLabels",
+    "access": "authAndGuest",
+    "type": "LABELS"
+}

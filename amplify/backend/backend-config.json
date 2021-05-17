@@ -1,0 +1,18 @@
+{
+  "auth": {
+    "objectdetection1386cdf2": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "predictions": {
+    "identifylabels": {
+      "providerPlugin": "awscloudformation",
+      "service": "Rekognition",
+      "dependsOn": [],
+      "identifyType": "identifyLabels"
+    }
+  }
+}
